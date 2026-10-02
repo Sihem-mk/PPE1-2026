@@ -1,0 +1,46 @@
+Lignes de codes utilisé pour chaque question:
+
+1)a) grep -r "^" 2016 | wc -l
+     grep -r "^" 2017 | wc -l
+     grep -r "^" 2018 | wc -l
+
+
+1)b) grep -r "lieux" 2016 | wc
+     grep -r "lieux" 2017 | wc
+     grep -r "lieux" 2018 | wc
+
+"lieux": signifie que je changeais à chaque fois pour mettre le lieux adapté, par exemple: "Paris", ou encore "New York".
+
+
+
+
+
+2)a) Depuis le dossier ann
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 2016 |cut -d: -f2- | sort | uniq -c | sort -n
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 2017 |cut -d: -f2- | sort | uniq -c | sort -n
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 2018 |cut -d: -f2- | sort | uniq -c | sort -n
+
+
+
+
+
+2)b)
+
+Depuis le dossier 2016
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 01 |cut -d: -f2- | sort | uniq -c | sort -n
+
+
+
+Depuis le dossier 2017
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 01 |cut -d: -f2- | sort | uniq -c | sort -n
+
+
+
+Depuis le dossier 2018
+
+grep -Eio "Paris|Berlin|Kyoto|Rome|Italie|Chine|Irlande|Europe|Washington|New York|France|Japon|Allemagne" -r 01 |cut -d: -f2- | sort | uniq -c | sort -n

@@ -1,0 +1,60 @@
+1)b) La consigne ne semblant pas claire, et n'indiquant pas de lieux à chercher, j'ai donc fait une liste de lieux. J'ai utilisé des lieux qui étaient présents dans le dossier en les "grep". Et j'ai grep aussi le nombre de fois qu'apparait le mot "Location". Par ailleurs, j'ai fait wc, de sorte à avoir le nombre de lignes, de mots, et d'octets.
+
+
+2016
+
+Paris: 91  481  5091
+Berlin: 14  80 757
+Kyoto: 2  12  125
+Rome: 16  82  856
+Italie: 35 177 1924
+Chine: 34 178 1840
+Irlande: 10 56 603
+Europe: 37 209 2191
+Washington: 4 22 253
+New York: 10 60 564
+France: 375 2221 21536
+Japon:10 50 533
+Allemagne: 41 207 2371
+
+Location: 3144 16146 177297
+
+
+2017
+
+Paris: 72 390 4183
+Berlin:3 15 168
+Kyoto: 0
+Rome: 6 31 321
+Italie: 38 195 2102
+Chine: 18 93 988
+Irlande: 2 10 113
+Europe: 31 169 1799
+Washington:7 38 427
+New York: 14 95 886
+France: 353 1844 19566
+Japon: 3 15 151
+Allemagne: 24 122 1420
+
+Location: 2466 12656 140324
+
+
+2018
+
+Paris: 190 1005 11158
+Berlin: 1 5 57
+Kyoto: 0
+Rome: 4 22 230
+Italie: 16 83 896
+Chine: 13 71 726
+Irlande: 4 12 230
+Europe: 18 91 1002
+Washington: 2 10 128
+New York:1 7 69
+France: 232 1238 13679
+Japon: 20 109 1121
+Allemagne: 1792 1029
+
+Location: 3110 16187 183864
+
+

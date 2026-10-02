@@ -1,0 +1,14 @@
+2) b)
+
+      1 New York
+      1 paris
+      2 Washington
+      3 Allemagne
+      3 Berlin
+      3 Europe
+      8 Chine
+     13 Paris
+     16 Italie
+     70 France
+
+

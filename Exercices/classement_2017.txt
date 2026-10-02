@@ -1,0 +1,16 @@
+2)a)
+
+      1 paris
+      2 Irlande
+      2 italie
+      3 Berlin
+      3 Japon
+      6 Rome
+      7 Washington
+     14 New York
+     18 Chine
+     24 Allemagne
+     31 Europe
+     38 Italie
+     72 Paris
+    354 France
