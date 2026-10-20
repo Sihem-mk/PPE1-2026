@@ -23,6 +23,7 @@ Lorem ipsum.
 Cette ligne doit rester après correction.
 
 
+
 3)b) Les éléments qui étaient présents dans le oups.md :
 
 Il est utilisé à la place du journal de bord pour le reste de la séance. On peut seulement faire
@@ -46,3 +47,5 @@ git checkout main => pour revenir dans le présent après le voyage dans le temp
 Observations: après avoir ls, je remarque que oups.md n'existe pas. Il en est de même pour la ligne "Cette ligne doit rester après correction" après avoir cat le journal.md.
 
 git stash pop => faire apparaître les modifications du présents (sans les avoir indexés avec git add qui est la chambre de préparation du commit, puisqu'ils sont dans le Stash).
+=======
+>>>>>>> 9088379e382c4bfc6e649e8571ea34994b902577
