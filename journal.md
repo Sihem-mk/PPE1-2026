@@ -19,3 +19,5 @@ Lors de la création des pipelines, le fait d'avoir déjà des indications des c
 
 Quelques lignes ajoutées pour l'exercices 2)a).
 Lorem ipsum.
+
+Cette ligne doit rester après correction.
