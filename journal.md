@@ -17,3 +17,5 @@ Lors de la création des pipelines, le fait d'avoir déjà des indications des c
 
 # Séance 3 Exercices git (20/10/2026)
 
+Quelques lignes ajoutées pour l'exercices 2)a).
+Lorem ipsum.
