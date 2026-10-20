@@ -19,3 +19,30 @@ Lors de la création des pipelines, le fait d'avoir déjà des indications des c
 
 Quelques lignes ajoutées pour l'exercices 2)a).
 Lorem ipsum.
+
+Cette ligne doit rester après correction.
+
+
+3)b) Les éléments qui étaient présents dans le oups.md :
+
+Il est utilisé à la place du journal de bord pour le reste de la séance. On peut seulement faire
+des add et des commit, mais aucun push.
+
+
+L’idée de cet exercice est de voir comment il est possible de corriger des erreurs avant qu’elle ne soient poussées
+vers le dépôt distant.
+
+Les commandes utilisés pour le 3)a)
+
+
+git stash -u => pour effectuer une sauvegarde complète dans le stash dans anciens et nouveaux fichiers.
+
+git checkout "git-seance2-defaire" => pour consulter la version au temps de la capture du tag/commit.
+
+Observations: après avoir ls, je remarque que oups n'existe pas.
+
+git checkout main => pour revenir dans le présent après le voyage dans le temps de la consultation du dépôt au temps du tag.
+
+Observations: après avoir ls, je remarque que oups.md n'existe pas. Il en est de même pour la ligne "Cette ligne doit rester après correction" après avoir cat le journal.md.
+
+git stash pop => faire apparaître les modifications du présents (sans les avoir indexés avec git add qui est la chambre de préparation du commit, puisqu'ils sont dans le Stash).
