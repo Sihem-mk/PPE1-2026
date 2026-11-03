@@ -1,9 +1,10 @@
-#!bin/bash
+#!/bin/bash
+#Exercie 1) et 4) (avec la forme de boucle)
 
 #Configuration des variables
-location="Paris"
+location="Location" # Location => le type de donnée directement, ou alors le lieux directement ex : "Paris"
 
-#Script qui donne le nombre de "location" par année => fichiers .ann des dossiers 2016 2017 et 2018 ; soit 20*
+#Script qui donne le nombre de "Location" par année => fichiers .ann des dossiers 2016 2017 et 2018 ; soit 20*
 #Avec la variable $location je peux utiliser le script plusieurs fois pour la recherche de différentes locations, car je n'ai qu'a mettre à jour la variable avec la location souhaitée.
 
 # -r : recherche récursive dans les sous-dossiers

@@ -15,7 +15,7 @@ Lors de la création des pipelines, le fait d'avoir déjà des indications des c
  
 # Week 4 et week 5, il n'y a pas eu cours en raison du blocus.  
 
-# Séance 3 Exercices git (20/10/2026)
+# Séance 3 Exercices git (20/10/2026) TP GIT : corriger des erreurs
 
 Quelques lignes ajoutées pour l'exercices 2)a).
 Lorem ipsum.
@@ -74,6 +74,42 @@ Même si les consignes du scénario avaient tendances à ne pas être claire sur
 
 
 
+
+#séance 4 week 6 (03/11/2026) 
+ 
+TP script Bash => effectué 
+
+Exercice 4 Boucles => décrire le fonctionnement du script dans la slide :
+
+#Expliquer le programme ci-dessous dans le journal de bord.
+
+
+#!/ usr / bin / bash                          => permet de lancer le script avec le programme bash dans tous les environnements (machines)
+
+if [ $ # - ne 1 ]                             => La section if = elle permet de dire que s'il n'y a pas 1 argument donnée après le script (ex: ./script.sh [argument])
+then                                             la commande ne se lance pas, et donc vérifier la validiter des uments de cette manière pour le bon déroulement du script.
+echo " ce programme demande un argument "
+exit
+fi
+
+FICHIER_URLS = $1                             => c'est l'argument à donner en entré avec le script "un fichier de liens URL" en variable $1
+OK =0
+NOK =0                                        => OK sert de variable de stockage d'url valide et NOK sert de variable de stokage d'éléments non valide comme url
+while read -r LINE ;                          => la variable WHILE lit le fichier ligne par ligne et stocke temporairement dans la variable $LINE
+do                                                Ainsi La boucle while extrait une ligne du fichier et la met dans la variable $LINE.
+echo " la ligne : $LINE "
+if [[ $LINE =∼ ^ https ?:// ]]                =>  La condition if analyse cette variable $LINE pour voir si elle commence par http:// ou https://.
+then
+echo " ressemble à une URL valide "
+OK = $ ( expr $OK + 1)                        => quand cela ressemble à une URL valide cela va dans la variable $OK stocké en +1, car c'est un compteur d'URLS valide : elle incrémente la valeur de la variable +1
+else
+echo " ne ressemble pas à une URL valide "
+NOK = $ ( expr $NOK + 1)                      => quand cela ne ressemble pas à une URL valide cela va dans la variable $NOK stocké en +1, car c'est un compteur d'URLS non valide : elle incrémente la valeur de la variable +1
+else
+fi
+done < $FICHIER_URLS                          => done indique la fin de la boucle WHILE. < : le fichier texte est branché directement sur la boucle qui prend la première ligne, exécute le code, arrive au mot-clé done,
+echo " $OK URLs et $NOK lignes douteuses "       puis repart automatiquement au début pour prendre la ligne suivante, et ainsi de suite du fichier $FICHIER_URLS
+                                              => Une fois la lecture du fichier terminée, echo affiche le compteur final d'URLS valide $Ok et non valide $NOK.
 
 
 
