@@ -112,10 +112,17 @@ echo " $OK URLs et $NOK lignes douteuses "       puis repart automatiquement au 
                                               => Une fois la lecture du fichier terminée, echo affiche le compteur final d'URLS valide $Ok et non valide $NOK.
 
 
+# week 7 
+
+Correction en visio et explications des notions du scripts Bash. 
 
 
+# séance 5 week 8 (11/11/2026) 
+
+J'ai effectué les exercices du miniprojet sur mon dépôt git individuel: avec le script miniprojet.sh et son tableau-fr.tsv. Ainsi j'ai pu explorer les notions d'utilisation de lynx après son installation, ainsi que de curl. J'ai notamment appris le fait que curl possède des mots clés spécifiques, ainsi qu'elle avait une sorte de syntaxe (par exemple % étant l'équivalent de $ en Bash), et un vocabulaire ("http_code" est le mot clé à saisir pour chercher le code http dans le serveur, ou encore "content_type" pour chercher l'encodage). 
 
 
+  
 
 
 
